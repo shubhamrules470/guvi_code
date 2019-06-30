@@ -1,8 +1,11 @@
 try:
 	n = int(input())
-	if n%2==0:
+	if n<0:
+		print('invalid')
+	elif n%2==0:
 		print('Even')
-	else:
+	else :
 		print('Odd')
+	
 except:
 	print('Invalid Input')
